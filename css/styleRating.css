@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+.norating{
+    display: inline-block;
+    width: 50px;
+    height: 47px;
+    background-image: url(http://19941.hosts.ma-cloud.nl/bewijzenmap/periode3/sterLeeg.png);
+}
+
+.norating:hover{
+    background-image: url(http://19941.hosts.ma-cloud.nl/bewijzenmap/periode3/sterLeegBack.png);
+    cursor: pointer;
+}
+
+.norating span {
+    display: inline-block;
+    width: 0;
+    height: 47px;
+    background-image: url(http://19941.hosts.ma-cloud.nl/bewijzenmap/periode3/sterVol.png);
+}
+
+
+#validatie img {
+    height: 2em;
+    width: auto;
+    border: 0;
+    position: relative;
+    left: 170px;
+    
+    
+}
+
+#container{
+    padding: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+    
+}
